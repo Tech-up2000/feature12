@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 <head>
@@ -19,6 +20,7 @@ body{
 .feature2{
     width: 100%;
     padding: 50px 70px;
+    margin:0;
 }
 .title-text2{
     text-align: center;
@@ -44,14 +46,14 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     z-index: 2;
-     align-items: center; 
-    margin-left: -50px;
+     align-items: center;
+     margin-left: -50px;
 }
 .quote .box{
     position: relative;
     width: 360px;
     height: 270px;
-align-items: center; 
+ align-items: center;
     background: #fff;
     overflow: hidden;
     transition: 0.5s;
@@ -92,7 +94,7 @@ align-items: center;
     top: 0;
     left: 0;
     z-index: 1;
-    opacity: 0;     
+    opacity: 0;    
     transition: 0.5s;
     pointer-events: none;
     width: 100%;
@@ -128,14 +130,17 @@ background: linear-gradient(#FFC107,#E91E63);
 }
 @media screen and (max-width:1200px)
 {
-    
+ .feature2{
+     margin:0;
+     width:100%;
+ }  
 
 .title-text2{
     text-align: center;
     padding-bottom: 80px;
 }
 .title-text2 p{
-    
+   
     font-size: 50px;
    
 }
@@ -144,13 +149,13 @@ background: linear-gradient(#FFC107,#E91E63);
    
     width: 1000px;
     min-height: 400px;
-    
+   
 }
 .quote .box{
    
     width: 320px;
     height: 300px;
-    
+   
 }
 
 .quote .box p{
@@ -160,7 +165,7 @@ background: linear-gradient(#FFC107,#E91E63);
 }
 .quote .box h2{
     font-size:18px;
-    top: 60px; 
+    top: 60px;
     right: 80px;
 }
 
@@ -173,15 +178,12 @@ background: linear-gradient(#FFC107,#E91E63);
     font-size: 25px;
 }
 }
-
-
-@media screen and (max-width:990px)
-{
-        
+@media screen and (max-width: 1026px){
     
 
 .feature2{
     width: 100%;
+    margin:0;
     padding: 50px 70px;
 }
 .title-text2{
@@ -191,12 +193,67 @@ background: linear-gradient(#FFC107,#E91E63);
 .title-text2 p{
     font-size: 30px;
     top: -20px;
-    
+   
 }
 .quote{
     width: 800px;
    padding: 10px;
-  
+ 
+}
+.quote .box{
+    padding: 10px;
+    bottom: 30px;
+    right: 10px;
+    left: 25px;
+    width: 250px;
+    height: 270px;
+   
+}
+.quote .box p{
+    padding: 30px;
+    font-size: 18px;
+
+}
+.quote .box h2{
+    font-size:18px;
+    top: 35px;
+    right: 50px;
+}
+
+#logo1{
+    font-size: 20px;}
+#logo2{
+    font-size: 20px;
+}
+#logo3{
+    font-size: 20px;
+}
+   
+}
+
+@media screen and (max-width:990px)
+{
+       
+   
+
+.feature2{
+    width: 100%;
+    margin:0;
+    padding: 50px 70px;
+}
+.title-text2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.title-text2 p{
+    font-size: 30px;
+    top: -20px;
+   
+}
+.quote{
+    width: 800px;
+   padding: 10px;
+ 
 }
 .quote .box{
     padding: 10px;
@@ -214,7 +271,7 @@ background: linear-gradient(#FFC107,#E91E63);
 }
 .quote .box h2{
     font-size:18px;
-    top: 35px; 
+    top: 35px;
     right: 50px;
 }
 
@@ -226,18 +283,16 @@ background: linear-gradient(#FFC107,#E91E63);
 #logo3{
     font-size: 20px;
 }
-    
+   
 
 }
 
 
-
-
-@media screen and (max-width:640px)
-{
+@media screen and (max-width: 770px){
+    
 .feature2{
     width: 100%;
-   
+   margin:0;
 }
 .title-text2{
     text-align: center;
@@ -246,7 +301,59 @@ background: linear-gradient(#FFC107,#E91E63);
 .title-text2 p{
     font-size: 30px;
     top: -28px;
+   
+}
+.quote{
+    width: 650px;
+   padding: 1px;
+}
+.quote .box{
     
+    margin-right: 12px;
+    padding: 1px;
+   height: 200px;
+    bottom: 80px;
+    left: -20px;
+    width: 185px;
+   
+   
+}
+.quote .box p{
+    padding: 25px;
+    font-size: 15px;
+
+}
+.quote .box h2{
+    font-size:12px;
+    top: 25px;
+    right: 45px;
+}
+
+#logo1{
+    font-size: 18px;}
+#logo2{
+    font-size: 18px;
+}
+#logo3{
+    font-size: 18px;
+}
+}
+}
+
+@media screen and (max-width:640px)
+{
+.feature2{
+    width: 100%;
+   margin:0;
+}
+.title-text2{
+    text-align: center;
+    padding-bottom: 8px;
+}
+.title-text2 p{
+    font-size: 30px;
+    top: -28px;
+   
 }
 .quote{
     width: 550px;
@@ -259,7 +366,7 @@ background: linear-gradient(#FFC107,#E91E63);
     bottom: 35px;
     left: -50px;
     width: 150px;
-    
+   
    
 }
 .quote .box p{
@@ -269,7 +376,7 @@ background: linear-gradient(#FFC107,#E91E63);
 }
 .quote .box h2{
     font-size:12px;
-    top: 25px; 
+    top: 25px;
     right: 35px;
 }
 
@@ -283,10 +390,10 @@ background: linear-gradient(#FFC107,#E91E63);
 }
 }
 @media screen and (max-width: 540px){
-    
+   
 .feature2{
     width: 100%;
-   
+   margin:0;
 }
 .title-text2{
     text-align: center;
@@ -295,7 +402,7 @@ background: linear-gradient(#FFC107,#E91E63);
 .title-text2 p{
     font-size: 30px;
     top: -28px;
-    
+   
 }
 .quote{
     width: 550px;
@@ -309,7 +416,7 @@ background: linear-gradient(#FFC107,#E91E63);
    
     left: -20px;
     width: 150px;
-    
+   
    
 }
 .quote .box p{
@@ -319,7 +426,7 @@ background: linear-gradient(#FFC107,#E91E63);
 }
 .quote .box h2{
     font-size:12px;
-    top: 25px; 
+    top: 25px;
     right: 35px;
 }
 
@@ -336,10 +443,11 @@ background: linear-gradient(#FFC107,#E91E63);
 
 @media screen and (max-width:440px)
 {
-    
+   
 
 .feature2{
     width: 100%;
+    margin:0;
     padding: 50px 50px;
 }
 .title-text2{
@@ -349,7 +457,7 @@ background: linear-gradient(#FFC107,#E91E63);
 .title-text2 p{
     font-size: 30px;
     top: -20px;
-    
+   
 }
 .quote{
     width: 1000px;
@@ -373,7 +481,7 @@ background: linear-gradient(#FFC107,#E91E63);
 }
 .quote .box h2{
     font-size:15px;
-    top: 55px; 
+    top: 55px;
     right: 100px;
 }
 
@@ -389,8 +497,12 @@ background: linear-gradient(#FFC107,#E91E63);
 }
 
 @media screen and (max-width:360px){
-  
-   
+ 
+.feature2{
+    margin: 0;
+    width: 100%;
+
+}
 
 .title-text2{
     text-align: center;
@@ -400,13 +512,13 @@ background: linear-gradient(#FFC107,#E91E63);
     font-size: 25px;
     top: -25px;
     right:20px;
-    
+   
 }
 .quote{
    
    display: inline;
     flex-wrap: nowrap;
-    
+   
 }
 .quote .box{
     margin: 15px;
@@ -420,7 +532,7 @@ background: linear-gradient(#FFC107,#E91E63);
 }
 .quote .box h2{
     font-size:12px;
-    top: 40px; 
+    top: 40px;
     right: 90px;
 }
 
@@ -436,18 +548,21 @@ background: linear-gradient(#FFC107,#E91E63);
 
 }
 @media screen and (max-width:325px){
-
+.feature2{
+    width: 100%;
+    margin: 0;
+}
 .title-text2 p{
     font-size: 25px;
     top: -25px;
     right:12px;
-    
+   
 }
 .quote{
    
    display: inline;
     flex-wrap: nowrap;
-    
+   
 }
 .quote .box{
     margin: 15px;
@@ -461,14 +576,17 @@ background: linear-gradient(#FFC107,#E91E63);
 }
 .quote .box h2{
     font-size:12px;
-    top: 40px; 
+    top: 40px;
     right: 90px;
 }
 
 }
 @media screen and (max-width:250px){
-    
-
+   
+.feature2{
+    width: 100%;
+    margin: 0;
+}
 .title-text2{
     text-align: center;
     padding-bottom: 10px;
@@ -477,7 +595,7 @@ background: linear-gradient(#FFC107,#E91E63);
     font-size: 20px;
     top: -20px;
     left: 10px;
-    
+   
 }
 .quote{
     width: 1000px;
@@ -502,7 +620,7 @@ background: linear-gradient(#FFC107,#E91E63);
 }
 .quote .box h2{
     font-size:12px;
-    top: 35px; 
+    top: 35px;
     right: 60px;
 }
 
@@ -527,8 +645,8 @@ background: linear-gradient(#FFC107,#E91E63);
 <div class="quote">
 <div>
 <div class="box box1"><i class="fa fa-tree" id="logo1"></i>
-<p>The eco friendly bags are mostly made materials 
-that are easy to get decomposed by the 
+<p>The eco friendly bags are mostly made materials
+that are easy to get decomposed by the
 bacteria and other microorganisms.</p>
 <h2>ECO-FRIENDLY</h2>
 </div>
@@ -536,7 +654,7 @@ bacteria and other microorganisms.</p>
 </div>
 <div>
 <div class="box box2"><i class="fa fa-thermometer-quarter" id="logo2"></i>
-<p>These kraft paper bags are excellent for packing food (even hot) that will stay fresh till you eat. 
+<p>These kraft paper bags are excellent for packing food (even hot) that will stay fresh till you eat.
 The reason for this is they have air pores that help in circulating air
 </p>
 <h2>PRESERVATION</h2>
@@ -545,9 +663,9 @@ The reason for this is they have air pores that help in circulating air
 </div>
 <div>
 <div class="box box3"><i class="fa fa-child" id="logo3"  ></i>
-<p>They are 
-extracted from a solution that is unbleached and 
-recycled from brown  paper so that crucial natural 
+<p>They are
+extracted from a solution that is unbleached and
+recycled from brown  paper so that crucial natural
 resources and greenhouse emissions can be reduced.
    </p>
    <h2>SAVE FUTURE</h2>
